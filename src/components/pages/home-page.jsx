@@ -1,8 +1,9 @@
 import React from 'react';
+import BookList from "../book-list";
 
 function HomePage(props) {
     return (
-        <div>Home Page</div>
+        <BookList/>
     );
 }
 
